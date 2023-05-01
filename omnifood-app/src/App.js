@@ -1,8 +1,14 @@
 import Hero from './components/Hero/Hero'
+import Header from './components/Header/Header'
+import HowItWorks from './components/HowItWorks/HowItWorks'
 
 const App = () => {
   return (
-    <Hero />
+    <>
+      <Header />
+      <Hero />
+      <HowItWorks />
+    </>
   )
 }
 
