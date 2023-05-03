@@ -39,7 +39,7 @@
     
 }
 
-.btn--outline:hover,.btn--outline:visited{
+.btn--outline:hover{
     background-color: #fdf2e9;
 
     /* border:3px solid #ffffff; 
