@@ -98,12 +98,6 @@ strong{
     text-align: center;
 }
 
-.dietItem{
-    display:flex;
-    align-items: center;
-    font-size: 1.8rem;
-    gap:1.6rem;
-}
 
 .marginBottomMd{
     margin-bottom: 4.8rem;

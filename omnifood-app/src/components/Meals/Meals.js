@@ -4,10 +4,59 @@ import meal1 from "../../content/img/meals/meal-1.jpg";
 import meal2 from "../../content/img/meals/meal-2.jpg";
 import { FlameOutline } from "react-ionicons";
 import { RestaurantOutline } from "react-ionicons";
-import { StarOutline } from "react-ionicons";
 import { CheckmarkOutline } from "react-ionicons";
+import { StarOutline } from "react-ionicons";
+
+import ListItem from "../Reusable/listItem/ListItem";
 
 const Meals = () => {
+  const listData = [
+    {
+      id: 1,
+      item: "Vegetarian",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 2,
+      item: "Vegan",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 3,
+      item: "Pescatarian",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 4,
+      item: "Gluten-free",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 5,
+      item: "Lactose-free",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 6,
+      item: "Keto",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 7,
+      item: "Paleo",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 8,
+      item: "Low FODMAP",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+    {
+      id: 9,
+      item: "Kid-friendly",
+      icon: <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />,
+    },
+  ];
   return (
     <div className={styles.sectionMeals}>
       <ContainerGrid className={styles.centerText}>
@@ -108,43 +157,15 @@ const Meals = () => {
             Works with any diet :
           </h3>
           <ul className={styles.list}>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Vegetarian</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Vegan</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Pescatarian</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Gluten-free</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Lactose-free</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Keto</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Paleo</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-
-              <span>Low FODMAP</span>
-            </li>
-            <li className={styles.dietItem}>
-              <CheckmarkOutline height="3rem" width="3rem" color={"#e67e22"} />
-              <span>Kid-friendly</span>
-            </li>
+            {listData.map((data) => {
+              return (
+                <ListItem
+                  listValue={data.item}
+                  key={data.id}
+                  icon={data.icon}
+                />
+              );
+            })}
           </ul>
         </div>
       </ContainerGrid>
