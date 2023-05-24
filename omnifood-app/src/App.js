@@ -6,6 +6,7 @@ import Meals from "./components/Meals/Meals";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Pricing from "./components/Pricing/Pricing";
 import Features from "./components/Features/Features";
+import CallToAction from "./components/CallToAction/CallToAction";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Testimonials />
       <Pricing />
       <Features />
+      <CallToAction />
     </>
   );
 };
