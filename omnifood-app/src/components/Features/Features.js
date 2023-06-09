@@ -9,7 +9,9 @@ import {
 
 const Features = () => {
   return (
-    <ContainerGrid className={`${styles.grid} grid grid-4-cols`}>
+    <ContainerGrid
+      className={`${styles.grid} ${styles.grid4cols} grid grid-4-cols`}
+    >
       <div className={styles.feature}>
         <div className={styles.featureIconBox}>
           <span className={styles.featureIcon}>

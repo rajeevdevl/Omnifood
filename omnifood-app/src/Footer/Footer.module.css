@@ -1,0 +1,86 @@
+footer{
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+
+.grid{
+    align-items: stretch;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footerHeading{
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+}
+
+.footerNav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:2.4rem
+}
+
+.footerLink:link,
+.footerLink:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color:#767676;
+    transition: all .3s;
+}
+
+.footerLink:hover,
+.footerLink:active{
+    color:#555;
+}
+
+.socialLinks{
+    display: flex;
+    list-style: none;
+    gap:2.4rem;
+    margin: 3rem 0;
+}
+
+.logoCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright{
+    font-size: 1.4rem;
+    color:#767676;
+    line-height: 1.6;
+    margin-top: auto;
+}
+
+.contacts{
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.address{
+    margin-bottom: 2.4rem;
+}
+
+@media (max-width:44em){
+    .grid{
+        grid-template-columns: repeat(6,1fr);
+    }
+
+    .navCol{
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 3.2rem;
+    }
+
+    .logoCol,.addressCol{
+        grid-column: span 3;
+    }
+       
+}
+
+/* below 544px */
+@media (max-width:34em){
+
+}

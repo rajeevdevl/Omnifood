@@ -23,3 +23,17 @@
     filter:brightness(0);
     opacity: 50%;
 }
+
+
+@media (max-width:59em){
+    .logos img{
+        height: 2.4rem;
+    }
+
+}
+
+@media (max-width:34em){
+    .logos img{
+        height: 1.2rem;
+    }
+}

@@ -72,6 +72,7 @@ Medium: 11px
 
 html{
     font-size: 62.5%; /* 10px -> for 20px use 2 rem, for 16px use 1.6rem */
+    overflow-x: hidden;
 }
 
 body{
@@ -79,6 +80,8 @@ body{
     line-height: 1;
     font-weight: 400;
     color:#555;
+    /* it only works if there is nothing absolute positioned in related to body */
+    overflow-x: hidden;
 }
 
 .link:link,.link:visited{
@@ -95,5 +98,23 @@ body{
     color:#cf711f;
     border-bottom: 1px solid transparent;
 
+}
+
+/* below 1200 */
+
+@media (max-width:75em){
+    html{
+        font-size: 56.25%;
+    }
+  
+}
+
+/* below 944 px */
+
+@media (max-width:59em){
+    /* 8/16 = 0.5 */
+    html{
+        font-size: 50%;
+    }
 }
 

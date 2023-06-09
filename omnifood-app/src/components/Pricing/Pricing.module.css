@@ -94,3 +94,9 @@
     text-align: center;
     margin-top: 4.8rem;
 }
+
+@media (max-width:44em){
+    .pricingPlan{
+        width:100%;
+    }
+}

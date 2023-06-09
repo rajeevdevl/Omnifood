@@ -6,12 +6,13 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fdf2e9;
+    position: relative;
 }
 
 .main-nav-list{
     display:flex;
     align-items: center;
-    gap:3.2rem;
+    gap:4.8rem;
     list-style-type: none;
 }
 
@@ -44,3 +45,93 @@
     height: 2.2rem;
 }
 
+.btnMobileNav{
+    border:none;
+    background: none;
+    cursor:pointer;
+    display: none;
+}
+
+.icon-mobile-menu{
+    display: block;
+}
+
+.icon-mobile-close{
+    display: none;
+}
+
+
+@media (max-width:75em){
+    .header{
+        padding: 0 3.2rem;
+    }
+
+    .main-nav-list{
+        gap:3.2rem
+    }
+}
+
+@media (max-width:59em){
+    .btnMobileNav{
+        display: block;
+        opacity: 99999;
+    }
+
+    .icon-mobile{
+        position: absolute;
+        right: 2rem;
+        top:2rem;
+    }
+
+    .main-nav{
+        background-color: #fff;
+        position:absolute;
+        left:0;
+        top:0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(100%);
+        transition: all .5s ease-in;
+        
+        /* hide navigation */
+       
+        /* display: none; allows no transition*/
+
+        /* so we can use opacity */
+        opacity: 0;
+
+        /* make it unaccesible to mouse and keyboard */
+
+        pointer-events: none;
+
+        /* Hide it from screen-readers */
+        visibility: hidden;
+    }
+
+    .nav-open .main-nav{
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translate(0);
+    }
+
+    .nav-open .icon-mobile-close{
+        display: block;
+    }
+
+
+    .nav-open .icon-mobile-menu{
+        display: none;
+    }
+    .main-nav-list{
+        flex-direction: column;
+        gap:4.8rem;
+    }
+
+    .main-nav-link:link,.main-nav-link:visited{
+        font-size: 3rem;
+    }
+}

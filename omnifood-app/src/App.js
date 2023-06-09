@@ -7,6 +7,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Pricing from "./components/Pricing/Pricing";
 import Features from "./components/Features/Features";
 import CallToAction from "./components/CallToAction/CallToAction";
+import Footer from "./Footer/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Pricing />
       <Features />
       <CallToAction />
+      <Footer />
     </>
   );
 };

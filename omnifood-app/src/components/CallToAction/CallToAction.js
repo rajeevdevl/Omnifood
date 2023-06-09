@@ -4,7 +4,7 @@ import ContainerGrid from "../../UI/ContainerGrid";
 const CallToAction = () => {
   return (
     <section className={styles.sectionCta}>
-      <ContainerGrid>
+      <ContainerGrid className={styles.CallContainer}>
         <div className={styles.grid}>
           <div className={styles.ctaTextBox}>
             <h2 className={`${styles.headingSecondary} heading-secondary`}>

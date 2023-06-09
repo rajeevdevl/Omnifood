@@ -1,5 +1,5 @@
 .container{
-    width:120rem;
+    max-width:120rem;
     margin:0 auto;
     padding:0 3.2rem;
 }
@@ -19,5 +19,9 @@
 
 .grid-4-cols{
     grid-template-columns: repeat(4,1fr);
+}
+
+.grid-5-cols{
+    grid-template-columns: repeat(5,1fr);
 }
 

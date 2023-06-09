@@ -1,5 +1,5 @@
 .sectionCta{
-    padding:9.6rem 0;
+    padding:4.8rem 0 12.8rem 0;
 }
 
 .grid{
@@ -11,7 +11,7 @@
     overflow: hidden;
 }
 
-.container{
+.callContainer{
     padding:0;
 }
 
@@ -98,4 +98,34 @@
 
 .ctaTextBox *:focus{
     box-shadow: 0 0 0 0.8rem rgba(253,242,233,0.5);
+}
+
+
+@media (max-width:59em){
+    .grid{
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .ctaForm{
+        grid-template-columns: 1fr;
+    }
+
+    .btnForm{
+        margin-top: 1.2rem;
+    }
+}
+
+@media (max-width:34em){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .ctaImgBox{
+        height: 32rem;
+        grid-row: 1;
+    }
+
+    .ctaTextBox{
+        padding: 3.2rem;
+    }
 }

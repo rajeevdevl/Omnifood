@@ -26,3 +26,10 @@
     padding: 1.6rem;
     border-radius: 50%;
 }
+
+@media (max-width:44em){
+
+    .grid4cols{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
