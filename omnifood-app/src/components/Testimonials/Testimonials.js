@@ -18,7 +18,7 @@ import galImg12 from "../../content/img/gallery/gallery-12.jpg";
 
 const Testimonials = () => {
   return (
-    <section>
+    <section id="testimonial">
       <div className={`${styles.testimonials} grid grid-2-cols`}>
         <div className={styles.testimonialContainer}>
           <span className="subheading">Testimonials</span>

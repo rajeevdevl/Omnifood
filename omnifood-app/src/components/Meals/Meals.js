@@ -58,7 +58,7 @@ const Meals = () => {
     },
   ];
   return (
-    <div className={styles.sectionMeals}>
+    <div className={styles.sectionMeals} id="meals">
       <ContainerGrid className={styles.centerText}>
         <span className="subheading">Meals</span>
         <h2 className="heading-secondary">

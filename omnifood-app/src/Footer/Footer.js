@@ -49,12 +49,12 @@ const Footer = () => {
           <p className={styles.footerHeading}>Contact Us</p>
           <address className={styles.contacts}>
             <p className={styles.address}>
-              Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
+              Address: India, 851101 street no - 252 (Bihar)
             </p>
 
             <p>
               <a href="tel:415-201-6370" className={styles.footerLink}>
-                415-201-6370
+                855-8067-452
               </a>
               <br />
               <a href="mailto:hello@omnifood.com" className={styles.footerLink}>

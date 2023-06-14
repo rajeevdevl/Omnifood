@@ -3,7 +3,7 @@ import ContainerGrid from "../../UI/ContainerGrid";
 
 const CallToAction = () => {
   return (
-    <section className={styles.sectionCta}>
+    <section className={styles.sectionCta} id="ctaform">
       <ContainerGrid className={styles.CallContainer}>
         <div className={styles.grid}>
           <div className={styles.ctaTextBox}>

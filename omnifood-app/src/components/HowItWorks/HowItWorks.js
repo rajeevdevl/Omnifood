@@ -6,7 +6,7 @@ import step3Img from "../../content/img/app/app-screen-3.png";
 
 const HowItWorks = () => {
   return (
-    <section className="section-how">
+    <section className="section-how" id="howitworks">
       <ContainerGrid className="">
         <span className="subheading">How it works</span>
         <h2 className="heading-secondary">your daily dose of health in</h2>

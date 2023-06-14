@@ -74,7 +74,8 @@
 @media (max-width:59em){
     .btnMobileNav{
         display: block;
-        opacity: 99999;
+        /* opacity: 99999; */
+        z-index: 99999;
     }
 
     .icon-mobile{
@@ -96,6 +97,7 @@
         transform: translate(100%);
         transition: all .5s ease-in;
         
+        
         /* hide navigation */
        
         /* display: none; allows no transition*/
@@ -116,6 +118,7 @@
         pointer-events: auto;
         visibility: visible;
         transform: translate(0);
+        
     }
 
     .nav-open .icon-mobile-close{

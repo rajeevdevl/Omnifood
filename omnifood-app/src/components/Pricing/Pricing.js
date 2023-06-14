@@ -51,7 +51,7 @@ const Pricing = () => {
     },
   ];
   return (
-    <section className={styles.pricingSection}>
+    <section className={styles.pricingSection} id="pricing">
       <ContainerGrid className={styles.centerText}>
         <span className="subheading">Pricing</span>
         <h2 className="heading-secondary">
