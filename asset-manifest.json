@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Omnifood/static/css/main.f9ec1592.css",
+    "main.js": "/Omnifood/static/js/main.654261ae.js",
+    "static/media/hero.png": "/Omnifood/static/media/hero.95880f4a0356f8ea1f65.png",
+    "static/media/app-screen-2.png": "/Omnifood/static/media/app-screen-2.9f09beff9c1f11573ee5.png",
+    "static/media/app-screen-3.png": "/Omnifood/static/media/app-screen-3.8840901f2b4ebc814629.png",
+    "static/media/app-screen-1.png": "/Omnifood/static/media/app-screen-1.d60a3c2bea35203a68d7.png",
+    "static/media/gallery-11.jpg": "/Omnifood/static/media/gallery-11.2311a566925cddbe5061.jpg",
+    "static/media/eating.jpg": "/Omnifood/static/media/eating.fb10ee9ced850d7e76d2.jpg",
+    "static/media/gallery-4.jpg": "/Omnifood/static/media/gallery-4.0ef7428835ff66b781c6.jpg",
+    "static/media/gallery-3.jpg": "/Omnifood/static/media/gallery-3.706f692c125ff7b53f22.jpg",
+    "static/media/gallery-1.jpg": "/Omnifood/static/media/gallery-1.2b7dbbca5ce24c9716d4.jpg",
+    "static/media/gallery-6.jpg": "/Omnifood/static/media/gallery-6.bfcbe47e92bea0f02aa0.jpg",
+    "static/media/gallery-12.jpg": "/Omnifood/static/media/gallery-12.98ee667ab42ec665d08f.jpg",
+    "static/media/gallery-8.jpg": "/Omnifood/static/media/gallery-8.e8796ae491cc9132070a.jpg",
+    "static/media/gallery-2.jpg": "/Omnifood/static/media/gallery-2.668e019b194da684a030.jpg",
+    "static/media/gallery-9.jpg": "/Omnifood/static/media/gallery-9.adb949fcab996719b02e.jpg",
+    "static/media/gallery-5.jpg": "/Omnifood/static/media/gallery-5.1b73d621a44a9e919081.jpg",
+    "static/media/gallery-10.jpg": "/Omnifood/static/media/gallery-10.aad3a8c062489f620a96.jpg",
+    "static/media/gallery-7.jpg": "/Omnifood/static/media/gallery-7.1b7d5b0c0b91f1aabc82.jpg",
+    "static/media/omnifood-logo.png": "/Omnifood/static/media/omnifood-logo.b3303bb60c5a0707b370.png",
+    "static/media/the-new-york-times.png": "/Omnifood/static/media/the-new-york-times.fedc85b26c424d2e167d.png",
+    "static/media/forbes.png": "/Omnifood/static/media/forbes.198688dbb86c3613e074.png",
+    "static/media/usa-today.png": "/Omnifood/static/media/usa-today.1c078f39a4c0bf2d9a2b.png",
+    "static/media/steve.jpg": "/Omnifood/static/media/steve.0c8a0e48c501c7db3624.jpg",
+    "static/media/business-insider.png": "/Omnifood/static/media/business-insider.f600197cea7efc0c5c66.png",
+    "static/media/techcrunch.png": "/Omnifood/static/media/techcrunch.4d966bb9916d89bcae9c.png",
+    "index.html": "/Omnifood/index.html",
+    "main.f9ec1592.css.map": "/Omnifood/static/css/main.f9ec1592.css.map",
+    "main.654261ae.js.map": "/Omnifood/static/js/main.654261ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9ec1592.css",
+    "static/js/main.654261ae.js"
+  ]
+}
