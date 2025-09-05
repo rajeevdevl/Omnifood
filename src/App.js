@@ -30,49 +30,54 @@ const App = () => {
   );
 };
 
-export const appRouter = createBrowserRouter([
+export const appRouter = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        {
+          path: "/",
+          element: (
+            <>
+              <Hero />
+              <CallToAction />
+            </>
+          ),
+        },
+        {
+          path: "/meals",
+          element: <Meals />,
+        },
+        {
+          path: "/pricing",
+          element: (
+            <>
+              <Pricing />
+              <Features />
+            </>
+          ),
+        },
+        {
+          path: "/howitworks",
+          element: (
+            <>
+              <HowItWorks />
+              <Testimonials />
+            </>
+          ),
+        },
+        {
+          path: "/meals/restaurants/:resid",
+          element: <RestaurantMenu />,
+        },
+      ],
+      errorElement: <Error />,
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: (
-          <>
-            <Hero />
-            <CallToAction />
-          </>
-        ),
-      },
-      {
-        path: "/meals",
-        element: <Meals />,
-      },
-      {
-        path: "/pricing",
-        element: (
-          <>
-            <Pricing />
-            <Features />
-          </>
-        ),
-      },
-      {
-        path: "/howitworks",
-        element: (
-          <>
-            <HowItWorks />
-            <Testimonials />
-          </>
-        ),
-      },
-      {
-        path: "meals/restaurants/:resid",
-        element: <RestaurantMenu />,
-      },
-    ],
-    errorElement: <Error />,
-  },
-]);
+    basename: "/Omnifood",
+  }
+);
 
 export default App;
