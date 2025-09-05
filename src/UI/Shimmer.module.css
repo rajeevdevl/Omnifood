@@ -1,0 +1,40 @@
+.shimmerContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  /* grid-template-columns: repeat(3, 1fr); */
+  justify-content: center;
+  grid-gap: 4rem;
+}
+
+.shimmerCard {
+  border-radius: 1.1rem;
+  overflow: hidden;
+  transition: all 0.4s;
+  /* width: 30%; */
+  width: 450px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.shimmerImg {
+  height: 300px;
+  background-color: rgba(184, 184, 184, 0.313);
+}
+
+.shimmerContent {
+  height: 300px;
+  background-color: rgba(149, 149, 149, 0.313);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 7rem 3rem;
+
+  gap: 4rem;
+
+  p {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(132, 132, 132);
+  }
+}

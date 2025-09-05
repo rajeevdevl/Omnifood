@@ -1,0 +1,68 @@
+.restaurantMenu {
+  margin: 9.4rem 0;
+}
+.menuHeading {
+  font-weight: bold;
+}
+
+.headingBox {
+  width: 80%;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin: 3rem 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 1.4rem 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.ratingHeading,
+.cuisin {
+  font-size: 18px;
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cuisin,
+.placetime {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.deliveryTime {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.foodItemCard {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+
+  border-bottom: 1px solid gainsboro;
+}
+
+.itemCardLeft h3 {
+  font-size: 20px;
+}
+
+.itemCardLeft ul > li:first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.itemCardRight img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}

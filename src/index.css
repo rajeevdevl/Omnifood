@@ -56,65 +56,65 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
 */
 
-
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-*:focus{
-    outline: none;
-    box-shadow: 0 0 0 0.8rem rgba(230,125,34,0.5);
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.744);
 }
 
-html{
-    font-size: 62.5%; /* 10px -> for 20px use 2 rem, for 16px use 1.6rem */
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+html {
+  font-size: 62.5%; /* 10px -> for 20px use 2 rem, for 16px use 1.6rem */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: "rubik",sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color:#555;
-    /* it only works if there is nothing absolute positioned in related to body */
-    overflow-x: hidden;
+body {
+  font-family: "rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* it only works if there is nothing absolute positioned in related to body */
+  overflow-x: hidden;
 }
 
-.link:link,.link:visited{
-    color:#e67e22;
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 2px;
-    display: inline-block;
-    transition: all .3s;
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  transition: all 0.3s;
 }
 
 .link:hover,
-.link:active{
-    color:#cf711f;
-    border-bottom: 1px solid transparent;
-
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
 
+.routerLink {
+  text-decoration: none;
+  color: unset;
+}
 /* below 1200 */
 
-@media (max-width:75em){
-    html{
-        font-size: 56.25%;
-    }
-  
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
 }
 
 /* below 944 px */
 
-@media (max-width:59em){
-    /* 8/16 = 0.5 */
-    html{
-        font-size: 50%;
-    }
+@media (max-width: 59em) {
+  /* 8/16 = 0.5 */
+  html {
+    font-size: 50%;
+  }
 }
-
