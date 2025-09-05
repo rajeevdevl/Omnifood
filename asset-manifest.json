@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Omnifood/static/css/main.f9ec1592.css",
-    "main.js": "/Omnifood/static/js/main.654261ae.js",
+    "main.css": "/Omnifood/static/css/main.9edfc81e.css",
+    "main.js": "/Omnifood/static/js/main.208e7dac.js",
     "static/media/hero.png": "/Omnifood/static/media/hero.95880f4a0356f8ea1f65.png",
     "static/media/app-screen-2.png": "/Omnifood/static/media/app-screen-2.9f09beff9c1f11573ee5.png",
     "static/media/app-screen-3.png": "/Omnifood/static/media/app-screen-3.8840901f2b4ebc814629.png",
@@ -27,11 +27,11 @@
     "static/media/business-insider.png": "/Omnifood/static/media/business-insider.f600197cea7efc0c5c66.png",
     "static/media/techcrunch.png": "/Omnifood/static/media/techcrunch.4d966bb9916d89bcae9c.png",
     "index.html": "/Omnifood/index.html",
-    "main.f9ec1592.css.map": "/Omnifood/static/css/main.f9ec1592.css.map",
-    "main.654261ae.js.map": "/Omnifood/static/js/main.654261ae.js.map"
+    "main.9edfc81e.css.map": "/Omnifood/static/css/main.9edfc81e.css.map",
+    "main.208e7dac.js.map": "/Omnifood/static/js/main.208e7dac.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9ec1592.css",
-    "static/js/main.654261ae.js"
+    "static/css/main.9edfc81e.css",
+    "static/js/main.208e7dac.js"
   ]
 }
